@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flow Control</title>
+</head>
+<body>
+	<h1>List using FlowControl(for loop)</h1>
+	<ul>
+		{%for name in list1%}
+		<li>{{name}}</li>
+		{%endfor%}
+	</ul>
+
+	<h1>for if-else Condition</h1>
+
+	{%if 'd' in list1%}
+		<p>The name rakshit founded</p>
+	{%else%}
+		<p>Match not founded</p>
+	{%endif%}
+
+</body>
+</html>
